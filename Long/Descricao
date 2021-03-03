@@ -1,0 +1,21 @@
+Os tipos "short" e "long":
+
+Você pode modificar o tamanho de uma variável usando os modificadores de tipo, que são dois: short e long. Note que float e char não podem ser modificados em tamanho.
+
+O prefixo "long" aumenta o espaço tomado pela variável, e portanto aumenta seu valor máximo e/ou sua precisão. Pode ser usado com int e double.
+
+Você pode abreviar short int e long int para simplesmente short e long, respectivamente.
+
+O tipo long é 32 bits como int em computadores de arquitetura 32 bits e 64 bits em computadores de arquitetura 64 bits no padrão LP64 (Mac OS X e Unix).
+
+Exercício:
+
+Considerando uma arquitetura de 64 bits, leia um "long" do teclado e imprima os 8 bytes que o compôe, byte por byte. A impressão deve ser feita do byte mais significativo para o menos significativo.
+
+Exemplo 1 de entrada: 10000000000
+
+Exemplo 1 de saída: 0 e4 b 54 2 0 0 0
+
+Exemplo 2 de entrada: 123444789
+
+Exemplo 2 de saída: 35 9e 5b 7 0 0 0 0
