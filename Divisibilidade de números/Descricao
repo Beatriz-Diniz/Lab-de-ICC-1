@@ -1,0 +1,3 @@
+Você deve receber como entrada 31 números inteiros, que devem ser salvos em um vetor. Seu objetivo é verificar e imprimir quais dos 30 primeiros números são divisíveis pelo número no último índice do vetor. Cada saída deve ser seguida de um caractere '\n', ou seja, quebra de linha Exemplo de entrada: 13\n 20\n 31\n 17\n 48\n ... 16\n 290\n 2\n
+
+Exemplo de saída: 20\n 48\n ... 16\n 290\n
