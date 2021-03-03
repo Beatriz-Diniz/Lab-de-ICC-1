@@ -1,0 +1,13 @@
+Para fins administrativos, os criadores de um jogo online decidiram verificar em qual mês do ano anterior houve maior acesso em seus servidores, e contrataram você para esta importante tarefa! Para isso, você deve ler, em sequência, os valores da média de horas jogadas do mês de janeiro a dezembro. Note que estes valores podem ter casas decimais. Feito isso, seu programa deverá retornar o número correspondente ao mês com maior média de horas jogadas, seguido pela quantidade média de horas jogadas neste mês, separados por um espaço em branco.
+
+A formatação deverá ser a seguinte: "mês horas".
+
+Importante: Para mostrar a média das horas, use apenas 2 casas decimais. Lembre-se de que o mês 1 corresponde a Janeiro, o 2 a Fevereiro, etc.
+
+Exemplo 1: Entrada: 13 123.3355 ... 5346.123
+
+Saída: 12 5346.12
+
+Exemplo 2: Entrada: 1235.23 5678 ... 634.134
+
+Saída: 2 5678.00
