@@ -1,0 +1,53 @@
+Comparar Palavras
+Faça um programa que leia um inteiro op que representa a opção que você deve utilizar para comparar duas palavras lidas da entrada padrão. Pode ser escolhido qualquer um dos 5 critérios abaixo para compará-las:
+
+1 - Qual palavra tem maior tamanho
+2 - Ordem Alfabética
+3 - Qual palavra apresenta maior soma dos valores das letras (A=0 até Z=25)
+4 - Qual das palavras tem mais repetições de uma determinada letra
+5 - Em qual das palavras uma determinada letra aparece primeiro (se a letra procurada for a segunda da palavra 1 e a terceira da palavra 2, a palavra 1 ganhou a comparação) 
+A entrada é formada por um inteiro, correspondente à opção, e duas palavras a serem comparadas de acordo com a opção. Caso a opção seja 4 ou 5, será lida outra letra que servirá de chave para as operações. A saída deverá ser apenas "1" se a primeira palavra ganhar a comparação, "2" se a segunda palavra ganhar a comparação, e "0" se a comparação resultar em um empate.
+
+Exemplos de Entrada e Saída
+Entrada:
+
+1
+Arvore
+Zebra
+Saída:
+
+1
+Entrada:
+
+2
+Arvore
+Zebra
+Saída:
+
+1
+Entrada:
+
+3
+Arvore
+Zebra
+Saída:
+
+1
+Entrada:
+
+4
+Arvore
+Zebra
+r
+Saída:
+
+1
+Entrada:
+
+1
+Arvore
+Zebra
+e
+Saída:
+
+2
