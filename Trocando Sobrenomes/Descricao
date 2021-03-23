@@ -1,0 +1,27 @@
+Você deverá receber uma lista de nomes completos. Os nomes tem tamanhos variados e quantidades de sobrenomes variadas.
+Como não se sabe inicialmente a quantidade de nomes a serem digitados, você deverá ler nomes até encontrar o caractere '$', com código ASC II decimal de valor 36.
+Após ler os nomes, você deverá fazer o seguinte algoritmo:
+A partir do primeiro nome da lista, você deverá trocar o último sobrenome deste nome, com o último sobrenome do último nome da lista.
+Em seguida, trocar os sobrenomes entre o segundo e o penúltimo nomes da lista, e assim por diante.
+Ao final, você deverá imprimir todos os nomes, na mesma ordem de entrada, pulando uma linha após cada nome.
+
+Obs: Use alocação dinâmica, você não sabe quantos nomes terão, o tamanho de cada nome e nem quantos sobrenomes tem cada nome, portanto, não faz sentido utilizar vetores estáticos.
+
+Exemplo:
+Entrada:
+Bruce Dickinson
+Samus Aran
+John Lennon
+Fred Mercury
+Augusta Ada Lovelace
+Sonya Blade
+Darkness Lalatina$
+
+Saída:
+Bruce Lalatina
+Samus Blade
+John Lovelace
+Fred Mercury
+Augusta Ada Lennon
+Sonya Aran
+Darkness Dickinson
