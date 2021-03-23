@@ -1,0 +1,41 @@
+IMPORTANTE: seu programa deverá ter 3 funções (fora a main): uma para ler a matriz, uma para misturar as cores e outra para printar a matriz!
+
+Você está fazendo uma pintura digital e, por isso, está trabalhando com o modelo de cores RGB e utilizando um programa que pode salvar até 6 cores em sua paleta para acesso rápido. Sua maior dificuldade, porém, é encontrar a cor ideal para colorir o seu desenho, o que você decidiu fazer misturando algumas das que já estão na sua paleta! Mas como?
+No modelo RGB, cada cor é composta por uma mistrura de certas de quatidades de vermelho (R), verde (G) e azul (B), que podem variar de 0 (mínimo) até 255 (máximo). Sua paleta contém 6 cores RGB e, portanto, possui dimensões 6x3.
+E como é feita a mistura das cores? Simples. Serão fornecidos três números: os dois primeiros contendo as posições das duas cores que você pretente misturar e o último a posição resultante da paleta, onde você irá fazer essa mistura. Somente metade da quatidade de cada tonalidade deve ser considerada (utilize divisão de inteiros) e elas devem ser somadas aos valores já existentes na posição resultante, produzindo uma nova cor, tal como nos exemplos de entrada e saída abaixo :D
+
+Exemplos de Entrada e Saída
+Entrada:
+
+0 1 2 
+0 4 0
+2 8 2
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+Note que a primeira linha representa, respectivamente, as coordenadas da primeira, segunda e terceira posições.
+
+Saída:
+
+Start:
+Color(0): [    0   4   0   ]
+Color(1): [    2   8   2   ]
+Color(2): [    0   0   0   ]
+Color(3): [    0   0   0   ]
+Color(4): [    0   0   0   ]
+Color(5): [    0   0   0   ]
+
+Result:
+Color(0): [    0   4   0   ]
+Color(1): [    2   8   2   ]
+Color(2): [    1   6   1   ]
+Color(3): [    0   0   0   ]
+Color(4): [    0   0   0   ]
+Color(5): [    0   0   0   ]
+Note que a paleta deve ser impressa em seu estado inicial e final no formato
+
+"Color(%d): [\t%d\t%d\t%d\t]\n"
+As duas deve estar separadas por dois "\n" e também deve haver um no final :D
+
+*Caso o valor de uma cor após a mistura passe de "255", colocar um limite máximo para "255".
