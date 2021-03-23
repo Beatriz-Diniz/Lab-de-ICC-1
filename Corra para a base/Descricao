@@ -1,0 +1,20 @@
+Você está, de novo, jogando RPG com seus amigos. Desta vez, porém, você está a beira da morte e não sobreviverá ao próximo ataque do inimigo caso não vá para a base se curar.
+O mapa do jogo é uma matriz de inteiros de dimensões NxM, sendo N e M números inteiros. Nessa matriz, os espaços preenchidos por zeros representam áreas vazias, enquanto o espaço preenchido pelo número 1 indica a localização da base (há apenas uma base por mapa).
+O seu personagem poderá estar em quaisquer (X,Y) do mapa, além de possuir um atributo "movimento", cujo valor indica o quantos espaços ele pode se mover a cada turno.
+Seu programa deverá receber como entrada dois inteiros N e M separados por um espaço e seguidos por uma quebra de linha. Outros dois inteiros X e Y (posição inicial do seu personagem, sendo X a linha e Y a coluna) e um valor real Mv (atributo de movimento), todos separados por espaços e seguidos por uma quebra de linha e, por fim, a matriz do mapa, como no exemplo abaixo:
+
+
+6 8
+1 5 2.0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+1 0 0 0 0 0 0 0
+
+
+
+Note que cada elemento da matriz é separado por um espaço.
+Sabendo que seu personagem só escapará da morte se chegar a base, desenvolva um programa que verifique se ele conseguirá sobreviver ao turno. Caso ele consiga, seu programa deverá printar "Voce escapou!" na saída padrão e "Game Over!", caso contrário.
+A distância do seu personagem até a base é dada pela distância euclidiana entre os pontos dele e da base. Você só chegará a ela se essa distância for menor ou igual ao seu movimento.
