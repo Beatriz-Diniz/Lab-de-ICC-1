@@ -1,0 +1,22 @@
+ATENÇÃO: Seu código não será avaliado se qualquer outra busca (que não seja a binária) for implementada :'(
+Desenvolva um algorítmo de busca binária que deve receber como entrada o tamanho do vetor no qual você irá realizar a busca, a chave buscada e os elementos do vetor em si. Seu programa deverá retornar o índice da chave no vetor, caso ela exista, ou "Chave inexistente", caso contrário. Como no exemplo abaixo:
+
+Exemplo de Entrada
+Entrada 1
+
+10 3
+10 9 8 7 6 5 4 3 2 1
+Entrada 2
+
+10 20
+10 9 8 7 6 5 4 3 2 1
+Exemplo de saída
+Saída 1
+
+2
+Saída 2
+
+Chave inexistente
+Note que há uma quebra de linha ao final da frase :D
+Seu programa deverá conter 3 funções: uma para leitura dos elementos do vetor (apenas os elementos do vetor. O tamanho e o número a ser buscado podem ser lidos na main) , outra para ordenação (ambas com tipo de retorno void) e, por fim, uma que fará a busca binária.
+
