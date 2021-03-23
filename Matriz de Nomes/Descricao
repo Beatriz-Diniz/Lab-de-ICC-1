@@ -1,0 +1,24 @@
+Seu programa receberá o nome completo de 5 pessoas (cada nome terá no máximo 49 letras - lembre-se do '\0' ao final) e deverá ordenar estes nomes em ordem alfabética crescente.
+
+Dica1: salve os nomes numa matriz de char, facilitará a ordenação.
+Dica2: utilize as funções da biblioteca string.h para fazer as operações necessárias
+Dica3: Lembre-se do programa de ordenação de vetores do laboratório passado (Use o Bubble Sort, se achar mais conveniente ou outro algoritmo de ordenação que achar mais conveniente)
+Dica4: Veja o arquivo Leitura.c anexado caso tenha problemas na leitura de dados :)
+
+Exemplo:
+
+
+Entrada:
+Joao Alberto da Silva
+Joao Jose Santos
+Bruce Dickinson
+Hironobu Sakaguchi
+Mark Hammil
+
+
+Saída:
+Bruce Dickinson
+Hironobu Sakaguchi
+Joao Alberto da Silva
+Joao Jose Santos
+Mark Hammil
