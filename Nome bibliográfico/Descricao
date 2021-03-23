@@ -1,0 +1,10 @@
+Nome bibliográfico
+(Retirado do material da turma SCC0222 , 2015) Desenvolva um algoritmo, em linguagem C, que receba, pela entrada padrão, um nome completo e imprima sua forma bibliogáfica na saída padrão. Para este exercício, considere que, caso haja mais de um sobrenome, apenas o último deverá ter sua posição trocada. A saída deverá ser no formato: SOBRENOME, Nome. Como exemplificam os casos abaixo:
+
+Exemplos de Entrada e Saída
+Entrada:
+
+John Ronald Reuel Tolkien
+Saída:
+
+TOLKIEN, John Ronald Reuel
