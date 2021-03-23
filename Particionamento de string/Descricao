@@ -1,0 +1,42 @@
+Você deverá implementar um programa capaz de particionar uma frase (a partir dos espaços) e montar um array de strings com as palavras que a compõe.
+O usuário poderá solicitar duas operações:
+
+Imprimir as palavras
+Imprimir as palavras em ordem alfabética
+As entradas e saídas serão fornecidas como nos exemplos abaixo:
+
+Exemplos de Entrada
+Entrada 1
+
+Eu queria estar jogando Zelda agora
+1
+Entrada 2
+
+Eu tambem queria estar jogando Nier Automata
+2
+Exemplos de Saída
+Saída 1
+
+Eu
+queria
+estar
+jogando
+Zelda
+agora
+Saída 2
+
+automata
+estar
+eu
+jogando
+nier
+queria
+tambem
+Note que, para realizar a ordenação, você deve converter as letras de todas as palavras da string original para minúsculas.
+Porém, para a impressão não é preciso verificar nada, apenas imprimir o que for passado.
+Ou seja, não é preciso fazer uma cópia da string original para manter as letras maiúsculas após a ordenação. Pode usar a referência passada na função sem preocupações. Mas, se for realizada só a impressão, sem a ordenação, as letras maiúsculas serão mantidas (por isso a diferença dos dois exemplos acima).
+Seu programa deverá conter obrigatoriamente as seguintes funções:
+
+1.Uma para particionar a frase
+2.Uma para printar as palavras
+3.Uma para ordenar as palavras
