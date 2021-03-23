@@ -1,0 +1,21 @@
+Você deverá ler vários caracteres de entrada, até encontrar o caractere 'x' (incluso, ou seja, ele também faz parte da leitura). Em casos de '\n', você deverá ignorar este caractere (não adicioná-lo ao vetor) e continuar a leitura.
+Ao terminar a leitura, ordene o vetor em ordem crescente.
+Ao final, você deverá imprimir seu vetor de caracteres como um vetor de inteiros, pulando uma linha após cada número impresso. A entrada sempre será um múltiplo de 4 characteres!
+Lembre-se: um inteiro possui 4 bytes, enquanto um caractere possui 1 byte. Ou seja, 4 caracteres formam 1 inteiro.
+
+Exemplo:
+Entrada:
+abcdefghijklmnopqrsx
+Saída:
+1684234849
+1751606885
+1818978921
+1886350957
+2020831857
+
+Entrada:
+programaremx
+Saída:
+1734697313
+1886350701
+2020766322
