@@ -1,3 +1,7 @@
+Desenvolva um programa capaz de decompor um número inteiro N > 1 em números primos. A saída do seu programa deverá conter a lista de todos os primos componentes de N, seguidos por sua multiplicidade (quantidade de vezes que esse número aparece no produto).
+Cada par deve estar na mesma linha, separado por um espaço. Já os pares estarão separados por uma quebra de linha, como mostra o exemplo abaixo:
+
+Exemplos de Entrada e Saída
 Entrada:
 
 50
